@@ -1,0 +1,67 @@
+@font-face {
+  font-family: vazir;
+  src: url("Vazir-Medium.ttf");
+}
+
+*{
+  font-family: vazir;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #3b4664;
+}
+
+.calc{
+  width: 300px;
+  margin: 80px auto 0 auto;
+}
+
+.screen{
+  padding: 22px;
+  font-size: 20px;
+  width: 296px;
+  background: #191f32;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.number{
+  margin-top: 10px;
+  padding: 20px;
+  width: 100%;
+  background: #272c44;
+  color: #191f32;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.number>span{
+  width: 35px;
+  border-radius: 10px;
+  text-align: center;
+  background: #eae4dd;
+  padding: 12px 15px;
+  margin: 8px 5px;
+  cursor: pointer;
+}
+
+.number>.big{
+  width: 110px;
+  color: #fff;
+}
+
+.number>.reset , .number>.del{
+  background: #647298;
+  color: #fff;
+}
+
+.number>.result{
+  background: #d13f30;
+}
