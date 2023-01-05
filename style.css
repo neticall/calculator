@@ -5,6 +5,7 @@
 
 *{
   font-family: vazir;
+  user-select: none;
   text-decoration: none;
   border: none;
   outline: none;
@@ -17,14 +18,13 @@ body{
 }
 
 .calc{
-  width: 300px;
-  margin: 80px auto 0 auto;
+  width: 320px;
+  margin: 80px auto 0;
 }
 
 .screen{
-  padding: 22px;
-  font-size: 20px;
-  width: 296px;
+  padding: 20px;
+  font-size: 25px;
   background: #191f32;
   color: #fff;
   border-radius: 10px;
@@ -32,8 +32,7 @@ body{
 
 .number{
   margin-top: 10px;
-  padding: 20px;
-  width: 100%;
+  padding: 10px 0;
   background: #272c44;
   color: #191f32;
   border-radius: 10px;
@@ -44,10 +43,11 @@ body{
 
 .number>span{
   width: 35px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
+  font-weight: bold;
   background: #eae4dd;
-  padding: 12px 15px;
+  padding: 8px 15px;
   margin: 8px 5px;
   cursor: pointer;
 }
